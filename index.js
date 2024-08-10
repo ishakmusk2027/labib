@@ -33,18 +33,18 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1265825059692609587')
+   .setApplicationId('1271896737241366682')
     .setType('PLAYING')
-    .setURL('https://www.twitch.tv/apparentlyjack_rl') 
-    .setState('Hey Nitro is here')
-    .setName('quaaxz')
-    .setDetails(`Nitro is now`)
+    .setURL('https://discord.gg/vPGJngQbUx') 
+    .setState('Hero')
+    .setName('Hero On Top')
+    .setDetails(`Join Server`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1041035673118965772/1270521845841657907/image_2.webp?ex=66b4012d&is=66b2afad&hm=c0fa475d23f70fc777bcea2e70d9682a9aedf2d565ae549e64552ac303361d2b&=&format=webp&width=696&height=379') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Nitro') 
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1041035673118965772/1270522062095781990/checked.png?ex=66b40160&is=66b2afe0&hm=1413e3f740030479e77899e2e3bebeb05f97a80e7c0b828e6ec6e9012f86255d&=&format=webp&quality=lossless&width=768&height=768') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Small Text') 
-    .addButton('Google', 'https://google.com');
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1271463274537291920/1271637467954548736/39632582222_6.webp?ex=66b8b8ee&is=66b7676e&hm=b9a2561f21ad0a6cea7b4ae9abae940a6feac54eff1b27a01afbb9732befb3fc&=&format=webp') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Hero On Top') 
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1271463274537291920/1271911571983044618/39632582222_7.webp?ex=66b90f75&is=66b7bdf5&hm=68f75339852fcec14cf6db9d088b9c05cd211f51b5706ba89c6c1847438cc713&=&format=webp') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('Hero Server') 
+    .addButton('Join Now', 'https://discord.gg/vPGJngQbUx');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
